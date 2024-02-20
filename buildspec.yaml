@@ -8,6 +8,6 @@ env:
 phases:
   build:
     commands:
-      - env
+      - env | sort
       - echo "I'm in the build spec!"
       - cat README.md
