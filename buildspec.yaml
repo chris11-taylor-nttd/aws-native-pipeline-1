@@ -11,4 +11,3 @@ phases:
       - env | sort
       - echo "I'm in the pull request!"
       - cat README.md
-      - echo "Done!"
