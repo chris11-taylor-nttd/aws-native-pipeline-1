@@ -1,0 +1,13 @@
+version: 0.2
+
+env:
+  shell: bash
+  variables:
+    CUSTOM_ENV_VAR: foo-1
+        
+phases:
+  build:
+    commands:
+      - env
+      - echo "I'm in the build spec!"
+      - cat README.md
