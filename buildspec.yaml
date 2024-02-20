@@ -9,5 +9,5 @@ phases:
   build:
     commands:
       - env | sort
-      - echo "I'm in the build spec!"
+      - echo "I'm in the pull request!"
       - cat README.md
